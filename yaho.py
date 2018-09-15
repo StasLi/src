@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib.request
-from lxml import html
-quote_page = "https://www.yahoo.com/search?p="
+quote_page = "https://www.zap.co.il/search.aspx?keyword="
 searchitem = "iphone+X"
 
 page = urllib.request.urlopen(quote_page+searchitem)
